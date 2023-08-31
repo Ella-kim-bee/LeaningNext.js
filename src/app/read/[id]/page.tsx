@@ -1,8 +1,12 @@
-export default function Read( props: any ){
+export default async function Read( props: any ){
+  const res = await fetch(`http://localhost:9999/topics/${props.params.id}`);
+  const topic = await res.json();
+
   return (
     <>
-    <h2>Read!!</h2>
-    paramters : {props.params.id}
+      <h2>{topic.title}</h2>
+      <p>{topic.body}</p>
+      <p>paramters : {props.params.id}</p>
     </>
   )
 }

@@ -9,6 +9,46 @@
       "id": 2,
       "title": "css",
       "body": "css is ..."
+    },
+    {
+      "title": "javascript",
+      "body": "javascript is ...",
+      "id": 3
+    },
+    {
+      "title": "react",
+      "body": "react is ...",
+      "id": 4
+    },
+    {
+      "title": "java",
+      "body": "java is ...~~~",
+      "id": 5
+    },
+    {
+      "title": "java",
+      "body": "java is is is",
+      "id": 6
+    },
+    {
+      "title": "a",
+      "body": "abcd",
+      "id": 7
+    },
+    {
+      "title": "생성",
+      "body": "생성합니다",
+      "id": 8
+    },
+    {
+      "title": "b",
+      "body": "b",
+      "id": 9
+    },
+    {
+      "title": "c",
+      "body": "c",
+      "id": 10
     }
   ],
   "posts": [
