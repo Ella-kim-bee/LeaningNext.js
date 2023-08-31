@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-export default function Home() {
+  const Home = (() => {
   return (
     <>
       <h2>Welcome</h2>
@@ -9,4 +9,6 @@ export default function Home() {
       <img src='/janmangloop.png' style={{width:'100px'}}/>
     </>
   )
-}
+})
+
+export default Home;

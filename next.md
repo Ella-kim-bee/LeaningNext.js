@@ -162,3 +162,6 @@ A(layout.js)-->C[globals.css]
 ### Caching Data
 - todo
 
+### client IN server
+- component로 따로 파일 빼기
+- server component 파일 안에 client component 만들기

@@ -6,7 +6,8 @@ import { useRouter } from "next/navigation"; // appRouter방식
 export default function Create(){
 
   const router = useRouter();
-  const submitHandler = (ev: React.FormEvent<HTMLFormElement>) =>{
+  const submitHandler = (ev: any) =>{
+    // const submitHandler = (ev: React.FormEvent<HTMLFormElement>) =>{
     ev.preventDefault();
     console.log(ev.target.body.value)
     const title = ev.target.title.value;
