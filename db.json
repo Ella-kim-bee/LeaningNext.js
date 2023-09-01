@@ -1,9 +1,9 @@
 {
   "topics": [
     {
-      "id": 1,
-      "title": "html",
-      "body": "html is ..."
+      "title": "HTML",
+      "body": "html is ...",
+      "id": 1
     },
     {
       "id": 2,
@@ -34,21 +34,6 @@
       "title": "a",
       "body": "abcd",
       "id": 7
-    },
-    {
-      "title": "생성",
-      "body": "생성합니다",
-      "id": 8
-    },
-    {
-      "title": "b",
-      "body": "b",
-      "id": 9
-    },
-    {
-      "title": "c",
-      "body": "c",
-      "id": 10
     }
   ],
   "posts": [
