@@ -75,10 +75,52 @@
   }
 ~~~
 
-### 제네릭 <>
+### Generic <>
 - `useState<Restaurant>(data)`
 - useState에 Restaurant type을 쓰겠다
 - type을 자유롭게 지정할 때 사용
+~~~
+  function getSize<T>(arr: T[]): number {
+    return arr.length;
+  }
+
+  const arr1 = [1,2,3];
+  getSize<number>(arr1); //3
+
+  const arr2 = ['1','2','3'];
+  getSize<string>(arr2); //3
+
+  const arr3 = [false, true, true];
+  getSize<boolean>(arr3); //3
+
+  const arr4 = [{}, {}, { name: 'Tim' }];
+  getSize<object>(arr4); //3
+
+  const arr5 = ['1', '2', '3'];
+  getSize(5); //3
+~~~
+
+~~~
+  interface Mobile<T> {
+    name: string;
+    price: number;
+    option: T;
+  }
+
+  const m1: Mobile<{}> = {
+    name: "s21",
+    price: 1000,
+    option: {
+      color: "red"
+    }
+  }
+
+  const m2: Mobile<string> = {
+    name: "s21",
+    price: 1000,
+    option: "G"
+  }
+~~~
 
 ### extends
 - type 확장
